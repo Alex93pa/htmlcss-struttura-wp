@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.rosa{
+    height: 80px;
+    background-color: palevioletred;
+    margin: 20px;
+}
+
+.beige{
+    height: 200px;
+    background-color: peru;
+    margin: 20px;
+}
+
+.blue{
+    height: 550px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.viola{
+    height: 80px;
+    background-color: violet;
+    margin: 20px;
+}
+
+.top{
+    height: 80px;
+    background-color: cadetblue;
+}
