@@ -7,7 +7,7 @@
 
 .rosa{
     height: 80px;
-    background-color: palevioletred;
+    background-color: rgb(241, 135, 170);
     margin: 20px;
 }
 
@@ -25,11 +25,42 @@
 
 .viola{
     height: 80px;
-    background-color: violet;
+    background-color: rgb(95, 5, 95);
     margin: 20px;
 }
 
-.top{
-    height: 80px;
-    background-color: cadetblue;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.top{
+    height: 100px;
+    background-color: rgb(56, 235, 241);
+}
+
+.left{
+    width: 24%;
+    height: 400px;
+    margin-top: 25px;
+    background-color: rgb(56, 235, 241);
+    float: left;
+}
+
+.center{
+    width: 49%;
+    height: 400px;
+    margin: 25px 1%;
+    background-color: rgb(56, 235, 241);
+    float: left;
+}
+
+.right{
+    width: 25%;
+    height: 400px;
+    margin: 25px 0;
+    background-color: rgb(56, 235, 241);
+    float: right;
+}
+
